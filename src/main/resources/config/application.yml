@@ -1,0 +1,8 @@
+spring:
+  servlet:
+    multipart:
+      location: /home/kyun/Downloads/recFiles
+      #单文件上传最大大小，默认1MB
+      max-file-size: 5MB
+      #多文件上传时最大大小,默认10Mb
+      max-request-size: 30MB
